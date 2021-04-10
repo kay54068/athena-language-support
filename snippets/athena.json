@@ -1,4 +1,22 @@
 {
+    "Message Base": {
+        "prefix": "script_msg_base",
+        "body": [
+            "mes \"$1\";"
+        ]
+    },
+    "Message Muti Line": {
+        "prefix": "script_msg_mutiline",
+        "body": [
+            "mes \"$1\", \"$2\", \"$3\";"
+        ]
+    },
+    "Message Color": {
+        "prefix": "script_msg_color",
+        "body": [
+            "mes \"This is ^FF0000 red ^000000 and this is ^00FF00 green, ^000000 so.\";"
+        ]
+    },
     "NPC definition": {
         "prefix": "defnpc",
         "body": [
