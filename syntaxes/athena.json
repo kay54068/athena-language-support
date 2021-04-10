@@ -23,7 +23,11 @@
 			"name": "entity.name.label.athena"
 		},
 		{
-			"match": "\\b(?i)(true|false|jobname|Class|Upper|Zeny|Sex|Weight|MaxWeight|JobLevel|BaseExp|JobExp|NextBaseExp|NextJobExp|Hp|MaxHp|Sp|MaxSp|BaseClass|BaseJob|Karma|Manner)\\b",
+			"match": "(\\#\\w+\\$?)",
+			"name": "entity.name.label.athena"
+		},
+		{
+			"match": "\\b(?i)(true|false|jobname|Class|Upper|Zeny|Sex|Weight|MaxWeight|JobLevel|BaseExp|JobExp|NextBaseExp|NextJobExp|Hp|MaxHp|Sp|MaxSp|BaseClass|BaseJob|Karma|Manner|StatusPoint|SkillPoint|BaseLevel)\\b",
 			"name": "constant.language.const.athena"
 		},
 		{

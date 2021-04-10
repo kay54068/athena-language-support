@@ -1,49 +1,65 @@
 {
-    "name": "athena-language-support",
-    "displayName": "Athena Language Support",
-    "description": "Adds syntax highlighting and code snippets for rAthena-flavoured Athena scripting language",
-    "publisher": "secretdataz",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/secretdataz/athena-language-support"
-    },
-    "author": {
-        "name": "Jittapan Pleumsumran"
-    },
-    "contributors": [
-        {
-            "name": "JoWei",
-            "url": "https://github.com/JoWei"
-        }
-    ],
-    "license": "MIT",
-    "private": false,
-    "bugs": {
-        "url": "https://github.com/secretdataz/athena-language-support"
-    },
-    "version": "1.0.3",
-    "engines": {
-        "vscode": "^1.33.0"
-    },
-    "categories": [
-        "Programming Languages",
-        "Snippets"
-    ],
-    "contributes": {
-        "languages": [{
-            "id": "athena",
-            "aliases": ["Athena", "athena"],
-            "extensions": [".rascript"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "athena",
-            "scopeName": "source.athena",
-            "path": "./syntaxes/athena.json"
-        }],
-        "snippets": [{
-            "language": "athena",
-            "path": "./snippets/athena.json"
-        }]
-    }
+	"name": "athena-language-support",
+	"displayName": "Athena Language Support",
+	"description": "Adds syntax highlighting and code snippets for rAthena-flavoured Athena scripting language",
+	"publisher": "secretdataz",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/secretdataz/athena-language-support"
+	},
+	"author": {
+		"name": "Jittapan Pleumsumran"
+	},
+	"contributors": [
+		{
+			"name": "JoWei",
+			"url": "https://github.com/JoWei"
+		}
+	],
+	"license": "MIT",
+	"private": false,
+	"bugs": {
+		"url": "https://github.com/secretdataz/athena-language-support"
+	},
+	"version": "1.0.3",
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "athena",
+				"aliases": [
+					"Athena",
+					"athena"
+				],
+				"extensions": [
+					".rascript"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "athena",
+				"scopeName": "source.athena",
+				"path": "./syntaxes/athena.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "athena",
+				"path": "./snippets/athena.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "d1c94776-a9b0-436f-8cc3-5ac32d56107f",
+		"publisherDisplayName": "Secret",
+		"publisherId": "dbc38f04-514d-403b-845b-b79d8ab93b0a"
+	}
 }
