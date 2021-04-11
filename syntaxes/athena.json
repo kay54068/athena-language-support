@@ -166,7 +166,15 @@
 			"name": "entity.name.type.script.athena"
 		},
 		{
-			"match": "(?!/\\*|\\*/)(<=|>=|!=|=|>|<|\\+|\\-|\\*)",
+			"match": "(?!/\\*|\\*/)(%|/|<=|>=|!=|=|>|<|\\+|\\-|\\*)",
+			"name": "keyword.operator.athena"
+		},
+		{
+			"match": "(?!/\\*|\\*/)(<<|>>|\\&|\\||\\^)",
+			"name": "keyword.operator.athena"
+		},
+		{
+			"match": "(?!/\\*|\\*/)(\\-|\\!|\\~|\\?|\\:|\\;)",
 			"name": "keyword.operator.athena"
 		},
 		{
