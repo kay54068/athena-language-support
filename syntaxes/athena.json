@@ -7,11 +7,146 @@
 	],
 	"patterns": [
 		{
-			"match": "\\b(if|else|switch|case|break|default|for|do|while|return|goto)\\b",
+			"match": "\\b(?i)(NPCName)\\b",
 			"name": "keyword.control.athena"
 		},
 		{
-			"match": "\\b(?i)(set|setarray|mes|next|clear|close|close2|menu|select|prompt|callsub|callfunc|getarg|jobchange|jobname|input|warp|areawarp|warpparty|warpguild|setlook|changelook|setr|cleararray|copyarray|getarraysize|deletearray|getelementofarray|inarray|countinarray|getitem|rentitem|rentitem2|getitem2|getnameditem|grouprandomitem|makeitem|makeitem2|delitem|delitem|delitem|delitem|delitem2|delitem2|delitem2|delitem2|enableitemuse|disableitemuse|cutin|viewpoint|heal|itemheal|percentheal|rand|countitem|countitem|countitem|countitem|countitem|countitem|countitem|countitem|checkweight|checkweight2|readparam|getcharid|getnpcid|getpartyname|getpartymember|getpartyleader|getguildname|getguildmaster|getguildmasterid|strcharinfo|strnpcinfo|getequipid|getequipuniqueid|getequipname|getbrokenid|repair|repairall|getequipisequiped|getequipisenableref|getequiprefinerycnt|getequipweaponlv|getequippercentrefinery|successrefitem|failedrefitem|downrefitem|statusup|statusup2|bonus|bonus2|bonus3|bonus4|bonus5|autobonus|autobonus2|autobonus3|skill|skill|guildskill|getskilllv|getgdskilllv|basicskillcheck|getgmlevel|getgroupid|end|checkoption|setoption|setcart|checkcart|setfalcon|checkfalcon|setriding|checkriding|checkwug|checkmadogear|setmadogear|savepoint|savepoint|gettimetick|gettime|gettimestr|openstorage|guildopenstorage|guildopenstorage_log|guild_has_permission|itemskill|produce|cooking|monster|getmobdrops|areamonster|killmonster|killmonsterall|clone|doevent|donpcevent|cmdothernpc|addtimer|deltimer|addtimercount|initnpctimer|stopnpctimer|startnpctimer|setnpctimer|getnpctimer|attachnpctimer|detachnpctimer|playerattached|announce|mapannounce|areaannounce|getusers|getmapguildusers|getmapusers|getareausers|getunits|getunits|getunits|getareadropitem|enablenpc|disablenpc|hideoffnpc|hideonnpc|sc_start|sc_start|sc_start|sc_end|sc_end_class|getstatus|getscrate|debugmes|catchpet|birthpet|catchpet|birthpet|resetlvl|resetstatus|resetskill|skillpointcount|changebase|changesex|changecharsex|waitingroom|delwaitingroom|waitingroomkick|getwaitingroomusers|waitingroomkickall|enablewaitingroomevent|disablewaitingroomevent|enablewaitingroomevent|disablewaitingroomevent|getwaitingroomstate|warpwaitingpc|attachrid|addrid|detachrid|isloggedin|setmapflagnosave|getmapflag|setmapflag|removemapflag|pvpon|pvpoff|gvgon|gvgoff|emotion|maprespawnguildid|agitstart|agitend|agitcheck|flagemblem|getcastlename|getcastledata|setcastledata|requestguildinfo|getequipcardcnt|successremovecards|failedremovecards|marriage|wedding_effect|divorce|ispartneron|getpartnerid|getchildid|getmotherid|getfatherid|warppartner|getitemname|getitemslots|makepet|getexp|getinventorylist|getskilllist|clearitem|classchange|misceffect|playBGM|playBGMall|soundeffect|soundeffectall|strmobinfo|guardian|guardianinfo|petskillbonus|petrecovery|petloot|petskillattack|petskillattack2|petskillsupport|skilleffect|npcskilleffect|specialeffect|specialeffect2|nude|mapwarp|atcommand|atcommand|movenpc|message|npctalk|chatmes|mobcount|getlook|getsavepoint|npcspeed|npcwalkto|npcstop|getmapxy|mapid2name|checkoption1|checkoption2|guildgetexp|guildchangegm|logmes|summon|isnight|isday|isequipped|isequippedcnt|cardscnt|getrefine|night|day|defpattern|activatepset|deactivatepset|deletepset|preg_match|dispbottom|recovery|getpetinfo|gethominfo|getmercinfo|checkequipedcard|jump_zero|globalmes|unequip|getstrlen|charisalpha|charat|setchar|insertchar|delchar|strtoupper|strtolower|charisupper|charislower|substr|explode|implode|sprintf|sscanf|strpos|replacestr|countstr|setnpcdisplay|compare|strcmp|getiteminfo|setiteminfo|getequipcardid|sqrt|pow|distance|minmax|minmax|minmax|minmax|md5|getd|setd|callshop|npcshopitem|npcshopadditem|npcshopdelitem|npcshopattach|equip|autoequip|setbattleflag|getbattleflag|setitemscript|disguise|undisguise|getmonsterinfo|addmonsterdrop|delmonsterdrop|axtoi|query_sql|query_logsql|escape_sql|atoi|strtol|rid2name|pcfollow|pcstopfollow|pcblockmove|pcblockmove|pcblockskill|pcblockskill|setpcblock|getpcblock|unitexists|getunittype|getunitname|setunitname|getunitdata|setunitdata|unitwalk|unitwalk|unitkill|unitwarp|unitattack|unitstopattack|unitstopwalk|unittalk|unitemote|unitskilluseid|unitskillusepos|sleep|sleep2|awake|getvariableofnpc|warpportal|homunculus_evolution|homunculus_mutate|morphembryo|homunculus_shuffle|checkhomcall|eaclass|roclass|checkvending|checkchatting|checkidle|openmail|openauction|checkcell|setcell|getfreecell|setwall|delwall|checkwall|searchitem|mercenary_create|mercenary_heal|mercenary_sc_start|mercenary_get_calls|mercenary_get_faith|mercenary_set_calls|mercenary_set_faith|readbook|setfont|areamobuseskill|progressbar|progressbar_npc|pushpc|buyingstore|searchstores|showdigit|agitstart2|agitend2|agitcheck2|waitingroom2bg|waitingroom2bg_single|bg_team_setxy|bg_warp|bg_monster|bg_monster_set_team|bg_leave|bg_destroy|areapercentheal|bg_get_data|bg_getareausers|bg_updatescore|bg_join|bg_create|instance_create|instance_destroy|instance_id|instance_enter|instance_npcname|instance_mapname|instance_warpall|instance_announce|instance_check_party|instance_check_guild|instance_check_clan|instance_info|makerune|checkdragon|setdragon|ismounting|setmounting|checkre|getargcount|getcharip|is_function|get_revision|get_githash|freeloop|getrandgroupitem|cleanmap|cleanmap|npcskill|consumeitem|delequip|breakequip|sit|stand|bindatcmd|unbindatcmd|useatcmd|questinfo|setquest|erasequest|completequest|checkquest|isbegin_quest|changequest|showevent|getitem|getitem2|countbound|party_create|party_addmember|party_delmember|party_changeleader|party_changeoption|party_destroy|clan_join|clan_leave|montransform|montransform|vip_status|vip_time|bonus_script|bonus_script_clear|getgroupitem|enable_command|disable_command|getguildmember|addspiritball|delspiritball|countspiritball|mergeitem|mergeitem2|npcshopupdate|getattachedrid|getvar|showscript|ignoretimeout|geteleminfo|setquestinfo_level|setquestinfo_req|setquestinfo_job|opendressroom|navigateto|getguildalliance|adopt|getexp2|recalculatestat|hateffect|getrandomoptinfo|getequiprandomoption|setrandomoption|needed_status_point|jobcanentermap|openstorage2|unloadnpc|agitstart3|agitend3|agitcheck3|gvgon3|gvgoff3|channel_create|channel_setopt|channel_setcolor|channel_setpass|channel_setgroup|channel_setgroup|channel_chat|channel_ban|channel_unban|channel_kick|channel_delete|getitem2|getitem2|rentitem2|makeitem2|delitem2|countitem|achievementinfo|achievementadd|achievementremove|achievementcomplete|achievementexists|achievementupdate|getequiprefinecost|round|round|round|getequiptradability|mail|open_roulette|identifyall|is_guild_leader|is_party_leader|camerainfo|achievement_condition)\\b",
+			"match": "\\b(if|else|switch|case|break|default|for|do|while|return|goto)\\b",
+			"name": "keyword.control.athena"
+		},
+		{	
+			"//": "1.- Basic commands.",
+			"match": "\\b(mes|next|clear|close|close2|end|set|setd|getd|getvariableofnpc|getvar|menu|select|prompt|input|callfunc|callsub|getarg|getargcount|function|is_function|jump_zero|freeloop|setarray|cleararray|copyarray|deletearray|inarray|countinarray)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "2.- Information-retrieving commands",
+			"match": "\\b(strcharinfo|convertpcinfo|strnpcinfo|getarraysize|getelementofarray|readparam|getcharid|getnpcid|getchildid|getmotherid|getfatherid|ispartneron|getpartnerid|getlook|getsavepoint|getcharip|vip_status|vip_time|addspiritball|delspiritball|countspiritball|ignoretimeout|getequipid|getequipuniqueid|getequipname|getitemname|getbrokenid|getequipisequiped|getequipisenableref|getequiprefinerycnt|getequipweaponlv|getequippercentrefinery|getequiprefinecost|getareadropitem|getequipcardcnt|getinventorylist|cardscnt|getrefine|getnameditem|getitemslots|getiteminfo|getequipcardid|mergeitem|mergeitem2|getequiptradability|identifyall|getmapxy|mapid2name|getgmlevel|getgroupid|gettimetick|gettime|gettimestr|getusers|getmapusers|getareausers|getunits|getmapunits|getareaunits)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "2,2.- Guild-related commands.",
+			"match": "\\b(getguildname|getguildmember|getguildmaster|getguildmasterid|is_guild_leader|getcastlename|getcastledata|setcastledata|getgdskilllv|requestguildinfo|getmapguildusers|getskilllv|getskilllist|getmonsterinfo|getmobdrops|skillpointcount|getscrate)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "3.- Checking commands.",
+			"match": "\\b(playerattached|getattachedrid|isloggedin|checkweight|checkweight2|basicskillcheck|checkoption|checkoption1|checkoption2|setoption|setcart|checkcart|setfalcon|checkfalcon|setriding|checkriding|setdragon|checkdragon|setmadogear|checkmadogear|setmounting|ismounting|checkwug|checkvending|checkchatting|checkidle|agitcheck|agitcheck2|agitcheck3|isnight|isday|checkre)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "3,1.- Item-related commands",
+			"match": "\\b(isequipped|isequippedcnt|checkequipedcard)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "4.- Player-related commands.",
+			"match": "\\b(attachrid|detachrid|addrid|rid2name|message|dispbottom|showscript|warp|areawarp|warpparty|warpguild|warppartner|savepoint|save|heal|itemheal|percentheal|recovery|jobchange|jobname|eaclass|roclass|changebase|classchange|changesex|changecharsex|getexp|getexp2|setlook|changelook|pushpc|recalculatestat|needed_status_point|jobcanentermap|get_revision|get_githash)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "4,1.- Item-related commands.",
+			"match": "\\b(getitem|getitem2|getitem3|getitembound|getitembound2|getitembound3|getnameditem|rentitem|rentitem2|rentitem3|makeitem|makeitem2|makeitem3|cleanarea|cleanmap|searchitem|delitem|cartdelitem|storagedelitem|guildstoragedelitem|delitem2|delitem3|cartdelitem2|storagedelitem2|guildstoragedelitem2|countitem|cartcountitem|storagecountitem|guildstoragecountitem|countitem2|countitem3|cartcountitem2|storagecountitem2|guildstoragecountitem2|rentalcountitem|rentalcountitem2|rentalcountitem3|countbound|groupranditem|getrandgroupitem|getgroupitem|enable_items|disable_items|itemskill|consumeitem|produce|cooking|makerune|successremovecards|failedremovecards|repair|repairall|successrefitem|failedrefitem|downrefitem|unequip|delequip|breakequip|clearitem|equip|autoequip|buyingstore|searchstores|enable_command|disable_command|openstorage|openstorage2|openmail|mail|openauction)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "4,2.- Guild-related commands",
+			"match": "\\b(guildopenstorage|guildopenstorage_log|guild_has_permission|guildchangegm|guildgetexp|guildskill|resetlvl|resetstatus|resetskill|resetfeel|resethate|sc_start|sc_start2|sc_start4|sc_end|sc_end_class|getstatus|skilleffect|npcskilleffect|specialeffect|specialeffect2|statusup|statusup2|bonus|bonus2|bonus3|bonus4|bonus5|autobonus|autobonus2|autobonus3|bonus_script|bonus_script_clear|skill|addtoskill|nude|sit|stand|disguise|undisguise|transform|active_transform)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "4,3 Marriage-related commands.",
+			"match": "\\b(marriage|wedding|divorce|adopt|pcfollow|pcstopfollow|pcblockmove|unitblockmove|pcblockskill|unitblockskill|setpcblock|getpcblock)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "5.- Mob / NPC -related commands.",
+			"match": "\\b(monster|areamonster|areamobuseskill|killmonster|killmonsterall|strmobinfo|mobcount|clone|summon|addmonsterdrop|delmonsterdrop|disablenpc|enablenpc|hideonnpc|hideoffnpc|unloadnpc|cloakonnpc|cloakoffnpc|isnpccloaked|doevent|donpcevent|cmdothernpc|npctalk|chatmes|setnpcdisplay)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "5,1.- Time-related commands",
+			"match": "\\b(addtimer|deltimer|addtimercount|initnpctimer|stopnpctimer|startnpctimer|setnpctimer|getnpctimer|attachnpctimer|detachnpctimer|sleep|sleep2|awake|progressbar|progressbar_npc)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "5,1.- End of time-related commands",
+			"match": "\\b(announce|mapannounce|areaannounce|callshop|npcshopitem|npcshopadditem|npcshopdelitem|npcshopattach|npcshopupdate|waitingroom|delwaitingroom|enablewaitingroomevent|disablewaitingroomevent|enablearena|disablearena|getwaitingroomstate|warpwaitingpc|waitingroomkick|getwaitingroomusers|setmapflagnosave|setmapflag|removemapflag|getmapflag|setbattleflag|getbattleflag|warpportal|mapwarp)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "5,2.- Guild-related commands",
+			"match": "\\b(maprespawnguildid|agitstart|agitend|agitstart2|agitend2|agitstart3|agitend3|gvgon|gvgoff|gvgon3|gvgoff3|flagemblem|guardian|guardianinfo|getguildalliance)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "5,2.- End of guild-related commands.",
+			"match": "\\b(npcspeed|npcwalkto|npcstop|movenpc)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "6.- Other commands.",
+			"match": "\\b(debugmes|errormes|logmes|globalmes|rand|viewpoint|cutin|emotion|misceffect|soundeffect|soundeffectall|playBGM|playBGMall|pvpon|pvpoff|atcommand|charcommand|bindatcmd|unbindatcmd|useatcmd|camerainfo)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "6,1.- Unit-related commands",
+			"match": "\\b(unitwalk|unitwalkto|unitattack|unitkill|unitwarp|unitstopattack|unitstopwalk|unittalk|unitskilluseid|unitskillusepos|unitexists|getunittype|getunitname|setunitname|setunittitle|getunittitle|getunitdata|setunitdata|geteleminfo)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "6,1.- End of unit-related commands",
+			"match": "\\b(npcskill|day|night|defpattern|activatepset|deactivatepset|deletepset|pow|sqrt|distance|min|minimum|max|maximum|round|ceil|floor|md5|query_sql|query_logsql|escape_sql|setiteminfo|setitemscript|atoi|axtoi|strtol|compare|strcmp|getstrlen|charisalpha|charat|setchar|insertchar|delchar|strtoupper|strtolower|charisupper|charislower|substr|explode|implode|sprintf|sscanf|strpos|replacestr|countstr|preg_match|setfont|showdigit|setcell|checkcell|getfreecell|setwall|delwall|checkwall|readbook|open_roulette)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "7.- Instance commands.",
+			"match": "\\b(instance_create|instance_destroy|instance_enter|instance_npcname|instance_mapname|instance_id|instance_warpall|instance_announce|instance_check_party|instance_check_guild|instance_check_clan|instance_info|instance_live_info|getvariableofinstance)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "8.- Quest Log commands.",
+			"match": "\\b(questinfo|questinfo_refresh|setquest|completequest|erasequest|changequest|checkquest|isbegin_quest|showevent)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "9.- Battleground commands.",
+			"match": "\\b(waitingroom2bg_single|waitingroom2bg|bg_create|bg_join|bg_team_setxy|bg_reserve|bg_unbook|bg_desert|bg_warp|bg_monster|bg_monster_set_team|bg_leave|bg_destroy|areapercentheal|bg_get_data|bg_getareausers|bg_updatescore|bg_info)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "10.- Pet commands.",
+			"match": "\\b(bpet|birthpet|pet|catchpet|makepet|getpetinfo)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "10.1.- The Pet AI commands",
+			"match": "\\b(petskillbonus|petrecovery|petloot|petskillsupport|petskillattack|petskillattack2)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "11.- Homunculus commands.",
+			"match": "\\b(homevolution|morphembryo|hommutate|checkhomcall|gethominfo|homshuffle)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "12.- Mercenary commands.",
+			"match": "\\b(mercenary_create|mercenary_heal|mercenary_sc_start|mercenary_get_calls|mercenary_set_calls|mercenary_get_faith|mercenary_set_faith|getmercinfo)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "13.- Party commands.",
+			"match": "\\b(getpartyname|getpartymember|getpartyleader|is_party_leader|party_create|party_destroy|party_addmember|party_delmember|party_changeleader|party_changeoption|opendressroom|navigateto|hateffect|getrandomoptinfo|getequiprandomoption|setrandomoption|clan_join|clan_leave|synthesisui|upgradeui|itemlink|itemlink2)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "14.- Channel commands.",
+			"match": "\\b(channel_create|channel_setopt|channel_setcolor|channel_setpass|channel_setgroup|channel_setgroup2|channel_chat|channel_ban|channel_unban|channel_kick|channel_delete)\\b",
+			"name": "support.function.1.athena"
+		},
+		{	
+			"//": "15.- Achievement commands.",
+			"match": "\\b(achievementadd|achievementremove|achievementinfo|achievementcomplete|achievementexists|achievementupdate|achievement_condition)\\b",
 			"name": "support.function.1.athena"
 		},
 		{
