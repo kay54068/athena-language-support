@@ -187,6 +187,10 @@
 			"name": "comment.block.athena"
 		},
 		{
+			"match": "([\\'])(?:(?=(\\\\?))\\2.)*?\\1",
+			"name": "string.block.athena"
+		},
+		{
 			"match": "([\"])(?:(?=(\\\\?))\\2.)*?\\1",
 			"name": "string.block.athena"
 		},
